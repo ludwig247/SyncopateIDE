@@ -1,0 +1,25 @@
+{
+  "name": "descam",
+  "main": "./lib/descam",
+  "version": "0.0.0",
+  "description": "A short description of your package",
+  "keywords": [],
+  "activationCommands": {
+    "atom-workspace": [
+      "descam:toggle",
+      "descam:help",
+      "descam:printAML",
+      "descam:printITL",
+      "descam:printVHDL",
+      "descam:PrintCFGDot"
+    ]
+  },
+  "repository": "https://github.com/atom/descam",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+    "dotenv": "^8.1.0"
+  }
+}
