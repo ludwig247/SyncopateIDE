@@ -1,5 +1,5 @@
 {
   "atom-workspace": {
-    "ctrl-alt-o": "descam:toggle"
+    "ctrl-alt-h": "descam:help"
   }
 }

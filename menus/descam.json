@@ -1,64 +1,64 @@
 {
   "context-menu": {
-    "atom-text-editor": [
-      {
-        "label": "DeSCAM",
-        "submenu": [
-          {
-            "label": "PrintAML",
-            "command": "descam:printAML"
-          },
-          {
-            "label": "PrintCFGDot",
-            "command": "descam:printCFGDot"
-          },
-          {
-            "label": "PrintITL",
-            "command": "descam:printITL"
-          },
-          {
-            "label": "PrintVHDL",
-            "command": "descam:printVHDL"
-          },
-          {
-            "label": "Help",
-            "command": "descam:help"
-          }
-        ]
-      }
-    ]
-  },
-
-  "menu": [
-    {
-      "label": "Packages",
-      "submenu": [
+    "atom-text-editor": [{
+      "label": "DeSCAM",
+      "submenu": [{
+          "label": "PrintAML",
+          "command": "descam:printAML"
+        },
         {
-          "label": "DeSCAM",
-          "submenu": [
-            {
-              "label": "PrintAML",
-              "command": "descam:printAML"
-            },
-            {
-              "label": "PrintCFGDot",
-              "command": "descam:printCFGDot"
-            },
-            {
-              "label": "PrintITL",
-              "command": "descam:printITL"
-            },
-            {
-              "label": "PrintVHDL",
-              "command": "descam:printVHDL"
-            },
-            {
-              "label": "Help",
-              "command": "descam:help"
-            }
-          ]
+          "label": "PrintCFGDot",
+          "command": "descam:printCFGDot"
+        },
+        {
+          "label": "PrintITL",
+          "command": "descam:printITL"
+        },
+        {
+          "label": "PrintVHDL",
+          "command": "descam:printVHDL"
+        },
+        {
+          "label": "Toggle Lint On Save",
+          "command": "descam:toggleLintOnSave"
+        },
+        {
+          "label": "Help",
+          "command": "descam:help"
         }
       ]
-    }
-  ]
+    }]
+  },
+
+  "menu": [{
+    "label": "Packages",
+    "submenu": [{
+      "label": "DeSCAM",
+      "submenu": [{
+          "label": "PrintAML",
+          "command": "descam:printAML"
+        },
+        {
+          "label": "PrintCFGDot",
+          "command": "descam:printCFGDot"
+        },
+        {
+          "label": "PrintITL",
+          "command": "descam:printITL"
+        },
+        {
+          "label": "PrintVHDL",
+          "command": "descam:printVHDL"
+        },
+        {
+          "label": "Toggle Lint On Save",
+          "command": "descam:toggleLintOnSave"
+        },
+        {
+          "label": "Help",
+          "command": "descam:help"
+        }
+      ]
+    }]
+  }]
 }
