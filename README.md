@@ -2,9 +2,9 @@
 
 This package is being developed to facilitate property driven development (PDD) with the DeSCAM tool. it interfaces DeSCAM with Atom and complement that with additional features such as linting and CFG visualization.
 
-#![PrintITL example](demo/PrintITL.gif)
+![PrintITL example](demo/PrintITL.gif)
 
-##Features
+## Features
 Current runnable commands on a supported SystemC-PPA module are:
 - **PrintITL**: prints a complete set of properties in ITL
 - **PrintSVA**: prints a complete set of properties in SVA
